@@ -34,7 +34,7 @@ public class ReflectionActivity : Activity
         string prompt = _prompts[rand.Next(_prompts.Count)];
         Console.WriteLine("Consider the following prompt:");
         Console.WriteLine(prompt);
-        ShowSpinner(5);  // Pause to think
+        ShowSpinner(5);  
 
         Console.WriteLine("When you have something in mind, press Enter to continue.");
         Console.ReadLine();
